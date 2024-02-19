@@ -1,4 +1,4 @@
-import DestinationCards from "./DestinationCards"
+import DestCardFrame from "./DestCardFrame"
 
 const PopularDest = () => {
   return (
@@ -7,7 +7,7 @@ const PopularDest = () => {
         Popular Destinations
       </div>
       <div className="destination">
-        <DestinationCards />
+        <DestCardFrame />
       </div>
     </section>
   )

@@ -132,9 +132,9 @@ body{
     font-weight: 700;
     pointer-events: none;
     transition: 0.5s;
-    !* FONT FAMILY GILROY NOT FOUND; NEED TO BE IMPORTED AND USED HERE *!
-}
-.searchdest input:valid ~ span,
+    /* FONT FAMILY GILROY NOT FOUND; NEED TO BE IMPORTED AND USED HERE */
+
+/*.searchdest input:valid ~ span,
 .searchdest input:focus ~span{
     color: white;
     transform: translateX(-5px) translateY(-20px);
@@ -157,12 +157,9 @@ body{
 .searchdestbtn:hover{
     background-color: #B4DCFA;
     color: #163247;
-    /* border: 1px solid #163247; */
 }
 
 .subheadtext{
-    /* position: absolute; */
-    
     font-family: 'Storybook';
     font-style: normal;
     font-weight: 800;
@@ -172,36 +169,47 @@ body{
     color: #163247;
     margin-top: 6vh;
 }
-.destination{
-    display: flex;
-}
-
 .card_frame{
     display: flex;
+    column-gap: 50px;
+    margin: 50px 0;
 }
-
-.card{
-    margin: 50px 25px;
-    border-radius: 12px;
-    padding: 25px 25px;
-    width: fit-content;
+.card_img{
     background-color: #B4DCFA;
-    text-align: center;
+    height: 300px;
+    padding: 25px 30px;
+    border-radius: 15px;
     box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
 }
-
-.card .loc{
-    /* font-family: 'Gilroy'; */
-    margin: 15px;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 0.25em;
-
-    color: #163247;
-
-
+.card_img img{
+    width: 350px;
 }
-
-
+.card_img h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 10px 0;
+    letter-spacing: 0.25em;
+    color: #163247;
+    text-align: center;
+}
+.card_caption{
+    margin: 20px 0 0 5px;
+    max-width: 370px;
+}
+.card_caption h2{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.25em;
+    color: #163247;
+}
+.card_caption p{
+    margin: 1.4vh 0 2.8vh;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 23px;
+    color: #163247;
+}
