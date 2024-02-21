@@ -14,7 +14,7 @@ const Landing = () => {
           Are you ready to embark on the adventure of a lifetime? At Our Planning Your Experience, we believe that travel is more than just a journey; it's a way to create lasting memories, discover new cultures, and enrich your life.
         </p>
       </div>
-      <div className="flex flex-col gap-y-2 items-center sm:flex-row">
+      <div className="search flex flex-col gap-y-2 items-center sm:flex-row">
         <Search />
         <SearchButton />
       </div>

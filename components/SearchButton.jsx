@@ -1,7 +1,7 @@
 
 const SearchButton = () => {
   return (
-    <button className="searchdestbtn">
+    <button className="searchdestbtn w-[200px]">
       Search Destination
     </button>
   )
